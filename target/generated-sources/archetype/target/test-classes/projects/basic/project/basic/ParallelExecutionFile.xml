@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticebasicValidation" parallel="tests"
+	thread-count="5">
+	<test thread-count="3" name="FirefoxTest">
+		<parameter name="selectBrowser" value="Firefox" />
+		<classes>
+			<class
+				name="com.atmecs.KonaKartbasic.testscripts.KonakartHomePage" />
+			<class
+				name="com.atmecs.KonaKartbasic.testscripts.KonaKartHeroImage" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="IETest">
+		<parameter name="selectBrowser" value="IE" />
+		<classes>
+			<class
+				name="com.atmecs.KonaKartbasic.testscripts.KonakartHomePage" />
+			<class
+				name="com.atmecs.KonaKartbasic.testscripts.KonaKartHeroImage" />
+		</classes>
+	</test>
+	<test thread-count="3" name="ChromeTest">
+		<parameter name="selectBrowser" value="chrome" />
+		<classes>
+			<class
+				name="com.atmecs.KonaKartbasic.testscripts.KonakartHomePage" />
+			<class
+				name="com.atmecs.KonaKartbasic.testscripts.KonaKartHeroImage" />
+		</classes>
+	</test>
+</suite>
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="basicValidation">
+<listeners>
+        <listener class-name="it.pkg.retryanalyser.RetryListener"/>
+</listeners>
+  <test  name="Validation tests" >
+    <classes>
+     <class name="it.pkg.testscripts.basicTestcase"/>
+      </classes>
+  </test> <!-- Validation tests -->
+  
+</suite> <!-- basicValidation -->
+
+

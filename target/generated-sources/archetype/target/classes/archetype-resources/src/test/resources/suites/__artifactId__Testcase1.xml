@@ -1,0 +1,18 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="${artifactId}Validation">
+<listeners>
+        <listener class-name="${package}.retryanalyser.RetryListener"/>
+</listeners>
+  <test  name="Validation tests" >
+    <classes>
+     <class name="${package}.testscripts.${artifactId}Testcase"/>
+      </classes>
+  </test> <!-- Validation tests -->
+  
+</suite> <!-- ${artifactId}Validation -->
+
+

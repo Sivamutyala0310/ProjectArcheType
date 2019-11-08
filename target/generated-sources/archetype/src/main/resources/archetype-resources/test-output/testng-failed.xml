@@ -1,0 +1,21 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="${package}.testscripts.${artifactId}Testcase">
+        <methods>
+          <include name="getClose"/>
+          <include name="initializeBrowser"/>
+          <include name="startReports"/>
+          <include name="quitDriver"/>
+          <include name="getReport"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- ${package}.testscripts.${artifactId}Testcase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

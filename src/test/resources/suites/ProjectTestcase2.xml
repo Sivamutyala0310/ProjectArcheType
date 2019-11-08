@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project">
+<listeners>
+        <listener class-name="com.atmecs.project.retryanalyser.RetryListener"/>
+</listeners>
+  <test  name="ValidatingAlerts" >
+    <classes>
+     <class name="com.atmecs.project.testscripts.ProjectTestcase2"/>
+      </classes>
+  </test> <!-- ValidatingAlerts -->
+</suite> <!-- Project -->

@@ -1,0 +1,27 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package}.validatetest;
+
+import org.openqa.selenium.WebElement;
+
+import ${package}.reports.LogReports;
+
+	public class ValidatePageActions {
+		static LogReports log = new LogReports();
+	
+		public static void isEnabled(WebElement element) {
+			element.isEnabled();
+			log.info("yes the element is enabled to perform any action");
+		}
+	
+		public static void isDisplayed(WebElement element) {
+			element.isDisplayed();
+			log.info("yes the element is displayed to perform any action");
+		}
+	
+		public static void isSelected(WebElement element) {
+			element.isSelected();
+			log.info("yes the element is selected");
+		}
+	}

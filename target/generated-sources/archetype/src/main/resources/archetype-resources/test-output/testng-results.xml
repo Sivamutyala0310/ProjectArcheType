@@ -1,0 +1,52 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="${artifactId}Validation (0)" duration-ms="18150" started-at="2019-11-01T05:22:36Z" finished-at="2019-11-01T05:22:54Z">
+    <groups>
+    </groups>
+    <test name="Validation tests" duration-ms="18150" started-at="2019-11-01T05:22:36Z" finished-at="2019-11-01T05:22:54Z">
+      <class name="${package}.testscripts.${artifactId}Testcase">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:${package}.testscripts.${artifactId}Testcase@185d8b6]" name="initializeBrowser" is-config="true" duration-ms="18078" started-at="2019-11-01T05:22:36Z" finished-at="2019-11-01T05:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:${package}.testscripts.${artifactId}Testcase@185d8b6]" name="testcase1" duration-ms="12" started-at="2019-11-01T05:22:54Z" finished-at="2019-11-01T05:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:${package}.testscripts.${artifactId}Testcase@185d8b6]" name="quitDriver" is-config="true" duration-ms="976" started-at="2019-11-01T05:22:54Z" finished-at="2019-11-01T05:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- ${package}.testscripts.${artifactId}Testcase -->
+    </test> <!-- Validation tests -->
+  </suite> <!-- ${artifactId}Validation (0) -->
+  <suite name="${artifactId}" duration-ms="15447" started-at="2019-11-01T05:22:55Z" finished-at="2019-11-01T05:23:10Z">
+    <groups>
+    </groups>
+    <test name="ValidatingAlerts" duration-ms="15447" started-at="2019-11-01T05:22:55Z" finished-at="2019-11-01T05:23:10Z">
+      <class name="${package}.testscripts.${artifactId}Testcase2">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:${package}.testscripts.${artifactId}Testcase2@551aa95a]" name="initializeBrowser" is-config="true" duration-ms="15435" started-at="2019-11-01T05:22:55Z" finished-at="2019-11-01T05:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:${package}.testscripts.${artifactId}Testcase2@551aa95a]" name="testcase2" duration-ms="0" started-at="2019-11-01T05:23:10Z" finished-at="2019-11-01T05:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:${package}.testscripts.${artifactId}Testcase2@551aa95a]" name="quitDriver" is-config="true" duration-ms="890" started-at="2019-11-01T05:23:10Z" finished-at="2019-11-01T05:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- ${package}.testscripts.${artifactId}Testcase2 -->
+    </test> <!-- ValidatingAlerts -->
+  </suite> <!-- ${artifactId} -->
+  <suite name="${artifactId}Validation" duration-ms="0" started-at="2019-11-01T05:23:11Z" finished-at="2019-11-01T05:23:11Z">
+    <groups>
+    </groups>
+  </suite> <!-- ${artifactId}Validation -->
+</testng-results>

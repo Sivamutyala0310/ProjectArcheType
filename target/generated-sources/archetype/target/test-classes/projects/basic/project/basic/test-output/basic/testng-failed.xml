@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [basic]">
+  <listeners>
+    <listener class-name="it.pkg.retryanalyser.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="ValidatingAlerts(failed)">
+    <classes>
+      <class name="it.pkg.testscripts.basicTestcase2">
+        <methods>
+          <include name="getClose"/>
+          <include name="initializeBrowser"/>
+          <include name="quitDriver"/>
+          <include name="getReport"/>
+          <include name="startReports"/>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- it.pkg.testscripts.basicTestcase2 -->
+    </classes>
+  </test> <!-- ValidatingAlerts(failed) -->
+</suite> <!-- Failed suite [basic] -->

@@ -1,0 +1,13 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="${artifactId}Validation" >
+	<suite-files>
+		<suite-file
+			path="./src${symbol_escape}test${symbol_escape}resources${symbol_escape}suites${symbol_escape}${artifactId}Testcase1.xml" />
+		<suite-file
+			path="./src${symbol_escape}test${symbol_escape}resources${symbol_escape}suites${symbol_escape}${artifactId}Testcase2.xml" />
+	</suite-files>
+</suite> <!-- ${artifactId}Validation -->

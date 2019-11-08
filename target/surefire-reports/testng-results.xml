@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ProjectValidation (0)" duration-ms="17877" started-at="2019-11-01T05:27:30Z" finished-at="2019-11-01T05:27:48Z">
+    <groups>
+    </groups>
+    <test name="Validation tests" duration-ms="17877" started-at="2019-11-01T05:27:30Z" finished-at="2019-11-01T05:27:48Z">
+      <class name="com.atmecs.project.testscripts.ProjectTestcase">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.atmecs.project.testscripts.ProjectTestcase@8bd1b6a]" name="initializeBrowser" is-config="true" duration-ms="17837" started-at="2019-11-01T05:27:30Z" finished-at="2019-11-01T05:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.atmecs.project.testscripts.ProjectTestcase@8bd1b6a]" name="testcase1" duration-ms="4" started-at="2019-11-01T05:27:48Z" finished-at="2019-11-01T05:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.atmecs.project.testscripts.ProjectTestcase@8bd1b6a]" name="quitDriver" is-config="true" duration-ms="1173" started-at="2019-11-01T05:27:48Z" finished-at="2019-11-01T05:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.atmecs.project.testscripts.ProjectTestcase -->
+    </test> <!-- Validation tests -->
+  </suite> <!-- ProjectValidation (0) -->
+  <suite name="Project" duration-ms="18293" started-at="2019-11-01T05:27:49Z" finished-at="2019-11-01T05:28:07Z">
+    <groups>
+    </groups>
+    <test name="ValidatingAlerts" duration-ms="18293" started-at="2019-11-01T05:27:49Z" finished-at="2019-11-01T05:28:07Z">
+      <class name="com.atmecs.project.testscripts.ProjectTestcase2">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.atmecs.project.testscripts.ProjectTestcase2@5c3bd550]" name="initializeBrowser" is-config="true" duration-ms="18289" started-at="2019-11-01T05:27:49Z" finished-at="2019-11-01T05:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.atmecs.project.testscripts.ProjectTestcase2@5c3bd550]" name="testcase2" duration-ms="0" started-at="2019-11-01T05:28:07Z" finished-at="2019-11-01T05:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.atmecs.project.testscripts.ProjectTestcase2@5c3bd550]" name="quitDriver" is-config="true" duration-ms="1091" started-at="2019-11-01T05:28:07Z" finished-at="2019-11-01T05:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.atmecs.project.testscripts.ProjectTestcase2 -->
+    </test> <!-- ValidatingAlerts -->
+  </suite> <!-- Project -->
+  <suite name="ProjectValidation" duration-ms="0" started-at="2019-11-01T05:28:08Z" finished-at="2019-11-01T05:28:08Z">
+    <groups>
+    </groups>
+  </suite> <!-- ProjectValidation -->
+</testng-results>
